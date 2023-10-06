@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music_player .css">
+    <script type="module" src="music_player .js"></script>
+    <script src="https://kit.fontawesome.com/6087ec93d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music_player">
+            <nav>
+                <div class="circle"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="circle"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIUV2u7rJ3VqBtFORlaYgSi-64dQzEo_6gQg&usqp=CAU" class="image-source">
+            <h1>I rise</h1>
+            <p>Maher al muaqiley</p>
+            <audio id="music">
+                <source src="./y2mate.is - Ya Quluban-I6xwQS6eWRI-192k-1695738635.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls" >
+                <div><i class="fa-solid fa-backward" id="control-back"></i></div>
+                <div><i class="fa-solid fa-play"id="control-play"></i></div>
+                <div><i class="fa-solid fa-forward" id="control-forw"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
